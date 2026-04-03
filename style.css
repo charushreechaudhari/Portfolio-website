@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(19, 19, 39);
+  color: white;
+  font-family: 'poppins', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 95px;
+  background-color: rgb(8, 45, 45);
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(17, 21, 45);
+  font-size: 1.03rem;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 80px 0;
+
+}
+
+.firstsection div {
+  width: 30%;
+}
+
+.leftsection {
+  font-size: 2rem;
+}
+
+.leftsection .buttons{
+  padding: 33px 0;
+}
+.leftsection .btn {
+  padding: 12px;
+  background-color: #3d3838;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 10px; 
+  cursor: pointer;
+}
+
+
+.rightsection {
+
+  width: 80%;
+  margin: 30px 0;
+  object-fit: cover;
+  border-radius: 50%;
+
+
+}
+
+.purple {
+  color: rgb(97, 91, 155);
+}
+
+.secondsection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+
+.secondsection h1 {
+  font-size: 1.9rem;
+}
+
+.secondsection .box {
+  background: white;
+  width: 79vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+
+.secondsection .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 150px;
+}
+
+.image-top {
+  width: 23px;
+  position: relative;
+  top: -32px;
+  left: -9px;
+}
+
+.vertical-title {
+  position: relative;
+  top: 75px;
+  width: 150px;
+}
+
+.vertical-desc {
+  position: relative;
+  top: 86px;
+  color: gray;
+  width: 105px;
+  font-size: 9px;
+}
+
+footer {
+  background-color: rgb(11, 13, 12);
+
+}
+
+.footer {
+  display: flex;
+  padding: 23px 123px;
+  justify-content: space-evenly;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer>div {
+  width: 223px;
+}
+
+footer .footer-rights {
+  text-align: center;
+  color: gray;
+  padding: 12px;
+}
